@@ -7,9 +7,8 @@ export default function reducer(state =initialState, action) {
         case 'MESSAGE':
             if (!window.localStorage.getItem('message')) {
                 console.log(action.payload)
-                window.localStorage.setItem('message', JSON.stringify(state.messages.concat(action.payload)))
-                let message = state.messages.concat(JSON.parse(window.localStorage.getItem("message")))
-                console.log(state.messages,'asi guardo msj')
+                window.localStorage.setItem('message', JSON.stringify([action.payload]))
+                let message = [action.payload]
                 return {
                     messages: message
                 }
