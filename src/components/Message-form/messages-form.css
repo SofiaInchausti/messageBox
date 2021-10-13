@@ -1,0 +1,15 @@
+.back{
+    background-color: aqua;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+.button{
+    background-color: #1ba9bb;
+    border-radius: 8px;
+    border-color: #1ba9bb;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(34, 33, 33, 0.19);
+}

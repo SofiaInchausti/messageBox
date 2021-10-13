@@ -1,0 +1,28 @@
+.background {
+    background: linear-gradient(250deg, #3745a0, #212a64);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: center;
+}
+.primary{
+    background: #1ba9bb;
+  }
+
+.title {
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    margin-bottom: 35px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+
+}
