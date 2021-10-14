@@ -2,6 +2,7 @@ const initialState = {
     messages: [],
 }
 
+
 export default function reducer(state =initialState, action) {
     switch (action.type) {
         case 'MESSAGE':
